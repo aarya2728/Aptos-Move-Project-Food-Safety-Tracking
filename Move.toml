@@ -1,0 +1,15 @@
+[package]
+name = "Food-Safety-Tracking"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0x3a0304339b2bdacd0a3af4a0bf6e97b7d4cea882be01ea53cf7e72e679e4fb20"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
